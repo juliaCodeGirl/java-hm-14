@@ -7,13 +7,13 @@ import ru.netology.repository.OfferRepository;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OfferManagerTest {
-    OfferRepository repository = new OfferRepository();
-    OfferManager manager = new OfferManager(repository);
+    private OfferRepository repository = new OfferRepository();
+    private OfferManager manager = new OfferManager(repository);
 
-    Offer offer1 = new Offer(1, 1000, "LED", "DME", 60);
-    Offer offer2 = new Offer(1, 3000, "DME", "LED", 60);
-    Offer offer3 = new Offer(1, 500, "LED", "DME", 60);
-    Offer offer4 = new Offer(1, 500, "DME", "KLN", 60);
+    private Offer offer1 = new Offer(1, 1000, "LED", "DME", 60);
+    private Offer offer2 = new Offer(1, 3000, "DME", "LED", 60);
+    private Offer offer3 = new Offer(1, 500, "LED", "DME", 60);
+    private Offer offer4 = new Offer(1, 500, "DME", "KLN", 60);
 
     @Test
     void shouldReturnEmptyIfNotTickets() {

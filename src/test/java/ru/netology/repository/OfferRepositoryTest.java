@@ -7,10 +7,10 @@ import ru.netology.exception.NotFoundException;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OfferRepositoryTest {
-
-    OfferRepository repository = new OfferRepository();
-    Offer offer1 = new Offer(1, 1000, "BOS", "KLN", 60);
-    Offer offer2 = new Offer(2, 3000, "LED", "DME", 50);
+    
+    private OfferRepository repository = new OfferRepository();
+    private Offer offer1 = new Offer(1, 1000, "BOS", "KLN", 60);
+    private Offer offer2 = new Offer(2, 3000, "LED", "DME", 50);
 
     @Test
     void shouldSave() {
