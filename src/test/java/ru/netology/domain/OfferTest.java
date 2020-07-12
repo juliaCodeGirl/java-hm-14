@@ -7,9 +7,9 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OfferTest {
-    Offer offer1 = new Offer(1, 1000, "LED", "DME", 60);
-    Offer offer2 = new Offer(1, 3000, "LED", "DME", 60);
-    Offer offer3 = new Offer(1, 500, "LED", "DME", 60);
+    private Offer offer1 = new Offer(1, 1000, "LED", "DME", 60);
+    private Offer offer2 = new Offer(1, 3000, "LED", "DME", 60);
+    private Offer offer3 = new Offer(1, 500, "LED", "DME", 60);
 
     @Test
     void shouldSortByPrice() {
