@@ -53,5 +53,4 @@ class OfferManagerTest {
         Offer[] actual = manager.findAll("LED", "DME");
         assertArrayEquals(expected, actual);
     }
-
 }

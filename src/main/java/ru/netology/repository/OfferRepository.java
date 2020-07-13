@@ -7,7 +7,6 @@ import ru.netology.exception.NotFoundException;
 
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class OfferRepository {
     private Offer[] tickets = new Offer[0];
 

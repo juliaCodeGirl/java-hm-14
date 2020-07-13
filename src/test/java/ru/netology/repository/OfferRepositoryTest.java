@@ -76,6 +76,4 @@ class OfferRepositoryTest {
         Offer actual = repository.findById(idToFind);
         assertEquals(expected, actual);
     }
-
-
 }
